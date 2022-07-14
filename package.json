@@ -3,6 +3,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "repository": "codechappie/iconico",
   "files": [
     "dist",
     "src"
@@ -10,6 +11,10 @@
   "engines": {
     "node": ">=10"
   },
+  "bugs": {
+    "url": "https://github.com/codechappie/iconico/issues"
+  },
+  "homepage": "https://iconico.codechappie.com",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -45,6 +50,15 @@
       "path": "dist/iconico.esm.js",
       "limit": "10 KB"
     }
+  ],
+  "keywords": [
+    "icon-library",
+    "react",
+    "react-icons",
+    "icons",
+    "svg",
+    "design",
+    "iconico"
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
