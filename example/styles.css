@@ -1,0 +1,15 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 8px 24px;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
